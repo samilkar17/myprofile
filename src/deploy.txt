@@ -16,6 +16,6 @@ step-3:{
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
     }
-    final:{npm run deploy} algo aqui
+    final:{npm run deploy}
     
 }
