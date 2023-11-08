@@ -1,20 +1,16 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 import userImg from "../../assets/images/user.png";
 export default function Home() {
   return (
     <>
-      <div
-        name="home"
-        className="w-full responsive flex justify-center "
-      >
+      <div name="home" className="w-full responsive flex justify-center ">
         <div className="grid gap-4  md:grid-cols-2 max-w-[1240px] mx-auto my-32 ">
           <div className="flex flex-col justify-center md:items-start w-full padding">
             <p className="title">Hola, Soy Sebastián Murillo</p>
-            <h1 className="sub-title md:text-5xl ">
-              Ingeniero Multimedia
-            </h1>
+            <h1 className="sub-title md:text-5xl ">Ingeniero Multimedia</h1>
             <p className="text-xl">
               Soy un ingeniero multimedia especializado en Inteligencia
               Artificial. Me apasiona crear sistemas multimedia innovadores que
@@ -40,6 +36,15 @@ export default function Home() {
               >
                 <FaGithub className="mr-2 w-6 h-6" />
                 Github
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sebastian-amilkar-murillo/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white bg-[#0e76a8] hover:bg-[#0e76a8]/90  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+              >
+                <FaLinkedin className="mr-2 w-6 h-6" />
+                LinkedIn
               </a>
             </div>
           </div>
