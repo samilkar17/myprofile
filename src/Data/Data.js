@@ -22,7 +22,7 @@ export const codeXp = [
 
   {
     icon: TbBrandNextjs,
-    heading: "Nextjs",
+    heading: "Next Js",
     color: "#000000",
   },
   {
@@ -49,7 +49,7 @@ export const codeXp = [
   },
   {
     icon: FaJs,
-    heading: "JavaScrip",
+    heading: "JavaScript",
     color: "#EFD81D",
   },
   {
