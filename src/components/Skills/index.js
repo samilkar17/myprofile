@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <>
       <div className="max-w-[1240px] p-4 mx-auto flex flex-col justify-center">
-        <div className="grid  gap-4  sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid  gap-4  sm:grid-cols-2 md:grid-cols-4">
           
           {codeXp.map((item, index) => {
             return (

@@ -27,7 +27,7 @@ export default function Course() {
                   className="w-12 h-12"
                   style={{ color: `${course.color}` }}
                 />
-                <h1 className="text-white font-bold">{course.description}</h1>
+                <h2 className="text-white font-bold">{course.description}</h2>
                 <p>{course.detail}</p>
               </div>
             );

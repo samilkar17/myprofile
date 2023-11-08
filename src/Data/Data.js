@@ -9,24 +9,17 @@ import {
   FaAndroid,
   FaDocker,
   FaLaptopMedical,
-  
 } from "react-icons/fa";
 
-import {SiMysql} from "react-icons/si"
-import {TbBrandNextjs} from "react-icons/tb"
+import { SiMysql } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 export const codeXp = [
-  
   {
     icon: FaPython,
     heading: "Python",
     color: "#ffd742",
   },
-  
-  {
-    icon: SiMysql,
-    heading: "MySQL",
-    color: "#1e98eb",
-  },
+
   {
     icon: TbBrandNextjs,
     heading: "Nextjs",
@@ -37,22 +30,12 @@ export const codeXp = [
     heading: "React JS",
     color: "#50BBD7",
   },
-  
   {
-    icon: FaJava,
-    heading: "Java",
-    color: "#CC5DE8",
+    icon: SiMysql,
+    heading: "MySQL",
+    color: "#1e98eb",
   },
-  {
-    icon: FaUnity,
-    heading: "Unity 3D",
-    color: "#000000",
-  },
-  {
-    icon: FaAndroid,
-    heading: "Android Studio",
-    color: "#A4C639",
-  },
+
   
   {
     icon: FaHtml5,
@@ -69,6 +52,11 @@ export const codeXp = [
     heading: "JavaScrip",
     color: "#EFD81D",
   },
+  {
+    icon: FaAndroid,
+    heading: "Android Studio",
+    color: "#A4C639",
+  },
 ];
 
 export const projects = [
@@ -76,7 +64,7 @@ export const projects = [
     description:
       "El proyecto es crear un dashboard web para la gestión de entrenadores y sus certificaciones, permitiendo el registro de los entrenadores y la administración de sus respectivas certificaciones.",
     image: require("../assets/images/empowering-project.png"),
-    demo: "https://certiprof.com/pages/empowering-trainers",
+    demo: "https://trainers.certiprof.com/trainers",
   },
   {
     description:
@@ -138,18 +126,16 @@ export const courses = {
   certifications: [
     {
       image: require("../assets/images/Scrum-Master-Professional-Certificate-SMPC_-2020.png"),
-      slug:"https://www.credly.com/badges/9d3919a8-7c3b-4d64-b342-4a94576001d4"
+      slug: "https://www.credly.com/badges/9d3919a8-7c3b-4d64-b342-4a94576001d4",
     },
     {
       image: require("../assets/images/scrum-foundation-professional-certificate-sfpc.1.png"),
-      slug:"https://www.credly.com/badges/b5c625dc-5d5e-47d8-a039-bb599a3b816c"
+      slug: "https://www.credly.com/badges/b5c625dc-5d5e-47d8-a039-bb599a3b816c",
     },
     {
       image: require("../assets/images/lifelong-learning.png"),
-      slug: "https://www.credly.com/badges/fe03d667-408b-46d6-876d-53efb054f1c1"
+      slug: "https://www.credly.com/badges/fe03d667-408b-46d6-876d-53efb054f1c1",
     },
-    
-    
   ],
   courses: [
     {

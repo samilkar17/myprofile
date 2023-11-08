@@ -3,10 +3,10 @@ import Course from "../minComponents/Course";
 
 export default function Courses() {
   return (
-    <div name="courses" className="w-full my-32">
+    <div name="courses" className="flex items-center justify-center w-full my-32">
       <div className="max-w-[1240px] mx-auto padding">
-        <h1 className="title">Conocimientos</h1>
-        <h1 className="sub-title">Estudios Realizados</h1>
+        <h2 className="title">Conocimientos</h2>
+        <h2 className="sub-title">Estudios Realizados</h2>
         <Course />
       </div>
     </div>

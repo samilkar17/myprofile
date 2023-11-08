@@ -5,8 +5,8 @@ export default function Contact() {
   return (
     <div name="contact" className="w-full my-32 responsive relative">
       <div className="max-w-[1240px] mx-auto padding">
-        <h1 className="title">Contactame</h1>
-        <h1 className="sub-title">Hablemos. Cuéntame sobre tu proyecto</h1>
+        <h2 className="title">Contactame</h2>
+        <h2 className="sub-title">Hablemos. Cuéntame sobre tu proyecto</h2>
         <Form />
       </div>
       {/*mañana 9 am 

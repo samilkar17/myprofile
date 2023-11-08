@@ -7,12 +7,12 @@ export default function Home() {
     <>
       <div
         name="home"
-        className="w-full responsive flex flex-col justify-between "
+        className="w-full responsive flex justify-center "
       >
         <div className="grid gap-4  md:grid-cols-2 max-w-[1240px] mx-auto my-32 ">
           <div className="flex flex-col justify-center md:items-start w-full padding">
             <p className="title">Hola, Soy Sebastián Murillo</p>
-            <h1 className="py-3 sub-title md:text-7xl ">
+            <h1 className="sub-title md:text-5xl ">
               Ingeniero Multimedia
             </h1>
             <p className="text-xl">
