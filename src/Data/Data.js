@@ -2,10 +2,10 @@ import {
   FaPython,
   FaHtml5,
   FaCss3,
-  FaJava,
+  FaNodeJs,
   FaReact,
   FaJs,
-  FaUnity,
+
   FaAndroid,
   FaDocker,
   FaLaptopMedical,
@@ -18,6 +18,11 @@ export const codeXp = [
     icon: FaPython,
     heading: "Python",
     color: "#ffd742",
+  },
+  {
+    icon: FaNodeJs,
+    heading: "Node.js",
+    color: "#68a063",
   },
 
   {
