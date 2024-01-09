@@ -67,6 +67,12 @@ export const codeXp = [
 export const projects = [
   {
     description:
+      "Desarrollé un LMS con Next.js para gestionar eficazmente la distribución de contenido educativo. Integré diversas tecnologías para un rendimiento óptimo y una experiencia de usuario excepcional.",
+    image: require("../assets/images/lms-course.png"),
+    demo: "https://lms-course-three.vercel.app",
+  },
+  {
+    description:
       "El proyecto es crear un dashboard web para la gestión de entrenadores y sus certificaciones, permitiendo el registro de los entrenadores y la administración de sus respectivas certificaciones.",
     image: require("../assets/images/empowering-project.png"),
     demo: "https://trainers.certiprof.com/trainers",
